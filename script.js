@@ -11,3 +11,13 @@ bottone.onclick = function () {
   // prendo valori
   const km = parseFloat(kmInput.value);
   const eta = parseInt(etaInput.value);
+  
+   // prezzo base
+  let prezzo = km * 0.21;
+
+  // sconti
+  if (eta < 18) {
+    prezzo = prezzo * 0.8;
+  } else if (eta > 65) {
+    prezzo = prezzo * 0.6;
+  }
