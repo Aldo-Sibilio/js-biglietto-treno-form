@@ -1,5 +1,6 @@
 Scrivere un programma che chieda all’utente:
 
+-Nome e cognome
 -Il numero di chilometri da percorrere.
 -Età del passeggero.
 
