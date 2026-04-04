@@ -57,3 +57,20 @@ button {
   cursor: pointer;
   margin-bottom: 1px;
 }
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+#risultato {
+  margin-top: 25px;
+  padding: 20px;
+  color: #2563eb;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.d-none {
+  display: none;
+}
