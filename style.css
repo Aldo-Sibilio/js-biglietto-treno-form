@@ -19,3 +19,19 @@ body {
   width: 700px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2563eb;
+}
+
+form {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+form div {
+  flex: 1;
+}
