@@ -35,3 +35,25 @@ form {
 form div {
   flex: 1;
 }
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 1px;
+}
